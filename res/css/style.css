@@ -34,3 +34,9 @@ html {
 #cookie:hover {
     transform: scale(1.1);
 }
+#clickUpgrade{
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: .3% ease;
+}
