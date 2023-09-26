@@ -39,4 +39,13 @@ html {
     border: none;
     cursor: pointer;
     transition: .3% ease;
+    margin: auto;
+}
+.upgradeButton{
+    margin:0 auto;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: .3% ease;
+    
 }
