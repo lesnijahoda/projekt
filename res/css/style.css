@@ -11,9 +11,17 @@ html {
 }
 
 #container {
+    width: 33%;
     display: table;
     margin: 0 auto;
     margin-top: 10em;
+    
+}
+.obchodsection{
+    max-width: 30%;
+    margin-right: auto;
+    background-image: url(https://wallpaper-house.com/data/out/21/wallpaper2you_6460.jpg);
+    color: white;
 }
 
 #cookie {

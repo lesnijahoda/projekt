@@ -2,6 +2,7 @@ const cookie = document.getElementById("cookie");
 const counter = document.getElementById("counter");
 const clickUpgrade = document.getElementById("clickUpgrade");
 const autoclickerUpgrade = document.getElementById("autoclickerUpgrade");
+const banana = document.getElementById("banana");
 
 let numberOfCookies = 0;
 let costOfclickUpgrade = 20;
@@ -11,8 +12,15 @@ let autoclicker;
 let autoclickerCost = 100;
 
 
+/*const updateinfo = () => {
+    
+}*/
 
-
+banana.onmouseover = () => {
+    console.log("banana mouse")
+    numberOfCookies += clickUpgradeIncrease;
+    counter.innerHTML = `Points: ${numberOfCookies}`;
+}
 
 
 
@@ -89,7 +97,9 @@ autoclickerUpgrade.onclick = () => {
             numberOfCookies += autoclickIncrease;
             //aktualizovat ofstavec
             counter.innerText = "Cookies" + numberOfCookies;
+            
         }, 1000);
+        
     }
 }
 
